@@ -47,3 +47,4 @@ Direct management and coaching of the analytics team
 
 ## **HOBBY**
 - Reading
+- Swimming
