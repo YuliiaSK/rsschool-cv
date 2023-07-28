@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  background-color: #ffffff;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+.header {
+  color: #ffffff;
+  background-color: #0c0c0e;
+  padding-bottom: 20px;
+}
+
+.header__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  bottom: 11px;
+  right: 20px;
+  width: 28px;
+  height: 28px;
+  background-image: url('/assets/img/icons/icon_profile.svg');
+  background-position: center;
+  background-size: 28px 28px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.header_name {
+  font-family: 'Forum', cursive;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin: 0;
+}
+
+.header_navigation {
+  margin-right: 53px;
+}
+
+.header_list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header_item {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.header_link {
+  letter-spacing: normal;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
